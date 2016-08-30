@@ -161,3 +161,37 @@
 								<input type="text" class="form-control" id="inputCurrencyRate" value="1">
 							</div>
 
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="row">
+				<table id="resultTable" class="table table-hover col-sm-6"></table>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+				<div class="jambotron">
+					<h3 id="result_h">Results</h3>
+					<p>
+					<div class="row">
+						<label class="col-sm-4 control-label" id="staticShareLink">Share your analysis:</label>
+						<div class="col-sm-6" rel="tooltip" title="copy this url">
+							<div class="input-group" id="savedUrl">
+								<input type="text" onclick="this.select();" class="form-control readOnly"><a class="input-group-addon"><i class="glyphicon glyphicon-export"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<table id="statsResultTable" class="table table-hover col-sm-6"></table>
+					</div>
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div id="chart_div"></div>
+			</div>
+			<div class="row">
+				<div id="chart_diff_div"></div>
+			</div>
+
