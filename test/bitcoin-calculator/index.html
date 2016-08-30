@@ -134,3 +134,30 @@
 						</div>
 					</div>
 
+
+					<div class="form-group">
+						<label for="inputElectricityPrice" class="col-sm-3 control-label">Electricity Price</label>
+						<div class="col-sm-9">
+							<div class="input-group">
+								<input type="text" class="form-control" id="inputElectricityPrice" placeholder="Electricity Price" value="0.1">
+								<span class="input-group-addon">USD/kWh</span>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputCurrency" class="col-sm-3 control-label">Currency</label>
+						<div class="col-sm-3">
+							<select class="form-control" id="inputCurrency">
+								<option id='base_curr' value="BASE_CURR" selected="selected">BTC</option>
+								<option value="USD">USD</option>
+								<option value="RUR">RUR</option>
+								<option value="EUR">EUR</option>
+								<option value="CNY">CNY</option>
+							</select>
+						</div>
+						<div id="rateControl">
+							<label for="inputCurrencyRate" class="col-sm-3 control-label">Rate</label>
+							<div class="col-sm-3">
+								<input type="text" class="form-control" id="inputCurrencyRate" value="1">
+							</div>
+
