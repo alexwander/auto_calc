@@ -1,13 +1,11 @@
 (function () {
   'use strict';
 
-  angular.module('myFirstApp', [])
+  angular.module('BitcoinCalculator', [])
 
-      .controller('MyFirstController', function ($scope) {
+      .controller('CalcController', function ($scope) {
         $scope.name = "test";
-        $scope.sayHello = function () {
-          return "Hello Coursera!";
-        };
+        $scope.totalValue = 0;
       });
 
 })();
