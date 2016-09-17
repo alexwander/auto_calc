@@ -7,5 +7,6 @@
         $scope.name = "test";
         $scope.totalValue = 0;
       });
+    
 
 })();
