@@ -28,6 +28,20 @@
     </div>
 
 <form id="rast_calc" action="?update=1&amp;count=1" method="post">
+    <div class="container">
+        <input type="hidden" name="type" id="type" value="1">
+        <!--ЦЕНА-->
+        <label for="price">Ціна авто</label>
+        <span>
+          <select style="float:right; width:20%" class="mui-select" name="valuta" id="valuta">
+                <option value="1">$</option>
+                <option value="2">€</option>
+            </select>
+            <input style="float:left; width:78%" class="mui-input" type="number" min="100" max="1000000" step="1" maxlength="7" name="price" id="price" value="20000">
+
+        </span>
+        <!--ЦЕНА-->
+
 
 
 
