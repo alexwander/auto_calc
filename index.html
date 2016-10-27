@@ -86,7 +86,29 @@
                 </select>
             </span>
         </div>
+        <div id="weightdiv" style="display:none">
+            <label for="weight">Повна маса</label>
+            <span>
+                <input class="mui-input kg" type="number" min="10" max="20000" step="1" maxlength="5" name="weight" id="weight" value="">
+            </span>
+        </div>
+        <!--
+        <label><input checked="checked" type="radio" name="who" value="0"/>физ.лицо</label>
+        <label><input type="radio" name="who" value="1"/>юр.лицо</label>
+        -->
 
+        <div>
+            <label for="newlaw" style="margin-top:-8px;height:1px;"></label>
+            <span style="margin-top:0px; padding:0; height:30px;">
+              <input class="mui-checkbox" type="checkbox" value="1" checked="" name="newlaw" id="newlaw">
+                <strong style="color:red; font-weight:normal;">&nbsp;рахувати за ставками від 1.07.2016 <a href="http://news.infocar.ua/nalog_na_bu_avtomobili_snijen_-_vse_podrobnosti_108152.html">?</a></strong>
+            </span>
+        </div>
+
+
+        <br clear="left">
+        <input class="mui-but" type="submit" id="rastb" value="Розрахувати">
+    </div>
 
 
 
