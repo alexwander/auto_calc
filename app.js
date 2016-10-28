@@ -19,6 +19,14 @@
     var form = document.getElementById('calc-auto');
     function defineEngineCharacteristics(type, volume) {
 
+        if (type === 'gas') {
+
+        } else if (type === 'diesel') {
+
+        } else if (type === 'electric') {
+
+            
+        }
 
 
 })();
