@@ -25,8 +25,8 @@
 
         } else if (type === 'electric') {
 
-            
-        }
+
+        } else if (type === 'moto') {
 
 
 })();
