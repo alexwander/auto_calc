@@ -20,8 +20,20 @@
     function defineEngineCharacteristics(type, volume) {
 
         if (type === 'gas') {
-
+            if (volume <= 1000) {
+                return 0.102;
+            } else if ( volume <= 1500 ) {
+                return 0.063;
+            } else if (volume <= 2200) {
+                return 0.267;
+            } else if (volume <= 3000) {
+                return 0.276;
+            } else {
+                return 2.209;
+            }
         } else if (type === 'diesel') {
+
+
 
         } else if (type === 'electric') {
 
