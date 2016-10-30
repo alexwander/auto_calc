@@ -39,13 +39,27 @@
             } else {
                 return 2.209;
             }
-            
+
 
         } else if (type === 'electric') {
+            if (volume > 30) {
+                return 109.127;
+            }
+
+        }
 
 
         } else if (type === 'moto') {
 
+            return 0.060;
+
+        }
+
+
+
+
+
+    }
 
 })();
 
