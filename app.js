@@ -32,8 +32,14 @@
                 return 2.209;
             }
         } else if (type === 'diesel') {
-
-
+            if (volume <= 1500) {
+                return 0.103;
+            } else if (volume <= 2500) {
+                return 0.327;
+            } else {
+                return 2.209;
+            }
+            
 
         } else if (type === 'electric') {
 
