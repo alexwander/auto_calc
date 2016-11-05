@@ -17,12 +17,13 @@
 (function () {
     'use strict';
     var form = document.getElementById('calc-auto');
+
     function defineEngineCharacteristics(type, volume) {
 
         if (type === 'gas') {
             if (volume <= 1000) {
                 return 0.102;
-            } else if ( volume <= 1500 ) {
+            } else if (volume <= 1500) {
                 return 0.063;
             } else if (volume <= 2200) {
                 return 0.267;
@@ -47,19 +48,20 @@
             }
 
         }
-
-
-        } else if (type === 'moto') {
+        else if (type === 'moto') {
 
             return 0.060;
-
         }
 
-
-
-
-
     }
+
+};
+
+  };
+
+function calculateTaxex() {
+    
+
 
 })();
 
