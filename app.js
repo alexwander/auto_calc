@@ -9,9 +9,6 @@
 
       });
 
-
-
-
 })();
 
 (function () {
@@ -60,7 +57,18 @@
   };
 
 function calculateTaxex() {
-    
+
+
+
+
+    document.getElementById('results').value =
+         ${type==='d'?'Дизель':'Бензин'},
+        ${volume},
+        ${price}
+
+
+};
+
 
 
 })();
