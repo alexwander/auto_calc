@@ -65,6 +65,9 @@ function calculateTaxex() {
          ${type==='d'?'Дизель':'Бензин'},
         ${volume},
         ${price}
+    ${vatT.toFixed(2)},
+
+}
 
 
 };
