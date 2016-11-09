@@ -66,6 +66,8 @@ function calculateTaxex() {
         ${volume},
         ${price}
     ${vatT.toFixed(2)},
+     ${mitoT.toFixed(2)}
+
 
 }
 
