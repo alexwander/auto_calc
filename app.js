@@ -59,9 +59,13 @@
 function calculateTaxex() {
 
 
+    var priceMultiplier = defineEngineCharacteristics(type, volume);
+    
 
 
     document.getElementById('results').value =
+
+
          ${type==='d'?'Дизель':'Бензин'},
         ${volume},
         ${price}
