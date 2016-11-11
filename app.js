@@ -60,7 +60,7 @@ function calculateTaxex() {
 
 
     var priceMultiplier = defineEngineCharacteristics(type, volume);
-    
+    var vatT = (price + mitoTax + startT) * 0.2;
 
 
     document.getElementById('results').value =
